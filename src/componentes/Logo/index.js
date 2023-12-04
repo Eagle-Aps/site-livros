@@ -1,16 +1,23 @@
 import logo from '../../imagens/logo.svg'
-import './style.css'
+import styled from 'styled-components';
+
+const LogoC = styled.div `
+  display: flex;
+  font-size: 30px;
+  `
+const LogoImg = styled.img `
+  margin-right: 10px; 
+  `
 
 function Logo(){
     return (
-    <div className='logo'>
-          <img 
+    <LogoC>
+          <LogoImg
             src={logo} 
             alt='logo' 
-            className='logo-img'
-          ></img>
+          />
           <p> Livraria <strong>Araguaia</strong></p>
-    </div>
+    </LogoC>
     );
 }
 

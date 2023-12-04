@@ -1,16 +1,21 @@
 import Logo from '../Logo';
 import Topicos from '../TopicosHeader';
 import Icones from '../IconesHeader';
-import './style.css';
+import styled from 'styled-components'
 
+const HeaderComponents = styled.header `
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+`
 function Header() {
     return(
-        <header className='App-header'>
+        <HeaderComponents>
             <Logo/>
             <Topicos/>
             <Icones/>     
-        </header>
-    ) 
+        </HeaderComponents>
+    )
 }
 
 export default Header;
