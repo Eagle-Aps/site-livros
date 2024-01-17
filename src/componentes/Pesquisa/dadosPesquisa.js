@@ -1,10 +1,10 @@
 import HPPedraFilosofal from "../../imagens/HPPedraFilosofal.png"
-import HPCamaraSecreta from "../../imagens/HPCamaraSecreta.jpg"
-import HPPrisioneiroDeAzkaban from "../../imagens/HPPrisioneiroDeAzkaban.jpg"
-import HPCáliceDeFogo from "../../imagens/HPCáliceDeFogo.jpg"
-import HPOrdemDaFenix from "../../imagens/HPOrdemDaFenix.jpg"
-import HPEnigmaDoPrincipe from "../../imagens/HPEnigmaDoPrincipe.jpg"
-import HPRelíquiasDaMorte from "../../imagens/HPRelíquiasDaMorte.jpg"
+import HPCamaraSecreta from "../../imagens/HPCamaraSecreta.png"
+import HPPrisioneiroDeAzkaban from "../../imagens/HPPrisioneiroDeAzkaban.png"
+import HPCáliceDeFogo from "../../imagens/HPCáliceDeFogo.png"
+import HPOrdemDaFenix from "../../imagens/HPOrdemDaFenix.png"
+import HPEnigmaDoPrincipe from "../../imagens/HPEnigmaDoPrincipe.png"
+import HPRelíquiasDaMorte from "../../imagens/HPRelíquiasDaMorte.png"
 
 export const livros = [
     {nome: 'Harry Potter e a Pedra Filosofal', id: 1, src: HPPedraFilosofal},
