@@ -1,11 +1,14 @@
-import styled from "styled-components"
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const textoTopicos = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
 
 const TopicosC = styled.ul`
+    text-decoration: none;
     display: flex;
     `
 const Topico = styled.li`
+    text-decoration: none;
     font-size: 16px;
     min-width: 120px;
     display: flex;
@@ -19,8 +22,8 @@ const Topico = styled.li`
 function Topicos () {
     return(
         <TopicosC>
-          { textoTopicos.map((texto) => (
-              <Topico><p>{texto}</p></Topico>
+          { textoTopicos.map((topico) => (
+              <Link to= {`./${topico.toLowerCase()}`}><Topico><p>{topico}</p></Topico></Link>
               ) ) }
          </TopicosC> 
     )

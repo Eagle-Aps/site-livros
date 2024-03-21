@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Titulo = styled.h2`
+    text-decoration: none;
     width: 100%;
     padding: 30px 0;
     background-color: #FFF;
